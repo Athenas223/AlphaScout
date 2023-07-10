@@ -16,7 +16,7 @@ public class PointIncrementerHIGHAdd : MonoBehaviour
     private void IncrementPoints()
     {
         currentPoints = (int.Parse(HIGHInput.text));
-        currentPoints += 4;
+        currentPoints += 5;
         HIGHInput.text = currentPoints.ToString();
     }
 }
